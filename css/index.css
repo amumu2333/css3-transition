@@ -1,0 +1,191 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-29 00:13:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-29 09:11:17
+*/
+@import url(reset.css);
+
+body{
+  background-color: #2F3238;
+  height: auto;
+}
+.item{
+  width: 980px;
+  height: auto;
+  margin:  30px auto 60px;
+}
+.item h2{
+  font-weight: 800;
+  font-size: 1.5em;
+  color: #484B54;
+}
+.item ul:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.item ul li{
+  float: left;
+  width: 480px;height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.item ul li:nth-child(1){
+  margin-right:20px;
+}
+.item ul li img{
+  display: block;
+}
+.item li a{
+  display: block;
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+}
+.item ul li p,.item ul li pre{
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.item ul li .title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  z-index: 10;
+}
+.item ul li .title span{
+  font-weight: 800;
+}
+.item ul li .desc{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+.lily li{
+  background: #3085a3;
+}
+.lily li img{
+  transition:all .35s;
+  max-width: none;
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  opacity: 0.7;
+  transform:translateX(-50px);
+}
+.lily li .title{
+  color: #FFF;
+  top: 250px;
+  left:100px;
+  transition:all .35s;
+}
+.lily li .desc{
+  color:rgba(255,255,255,.8);
+  top: 300px;
+  left:100px;
+  opacity: 0;
+  transition:all .55s;
+}
+
+
+
+.sadie li{
+  transition:all .35s;
+  background: #3085a3;
+}
+.sadie li img{
+  transition:all .35s;
+  max-width: none;
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  opacity: 0.7;
+  transform:translateX(-50px);
+}
+.sadie li a{
+  transition:all .35s;
+  background: linear-gradient(to top,rgba(0,0,0,1),transparent) no-repeat;
+  background-position: 0 360px;
+}
+.sadie li .title{
+  color: #484c61;
+  top: 120px;
+  transition:all .35s;
+  text-align: center;
+}
+.sadie li .desc{
+  color:rgba(255,255,255,.8);
+  top: 300px;
+  opacity: 0;
+  text-align: center;
+  transition:all .55s;
+}
+
+
+.honey li{
+  transition:all .35s;
+  background: #3085a3;
+}
+.honey li img{
+  transition:all .35s;
+  max-width: none;
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  opacity: 1;
+  transform:translateX(-50px);
+}
+.honey li a{
+  transition:all .35s;
+  background: linear-gradient(to top,rgba(255,255,255,1),rgba(255,255,255,1) 10px,transparent 0,transparent) no-repeat;
+  background-position: 0 360px;
+}
+.honey li .title{
+  color: #FFF;
+  top: 220px;
+  transition:all .35s;
+  text-align: center;
+  font-weight: 800;
+}
+.honey li .title span{
+  color: #FFF;
+  opacity: 0;
+  transition:all .35s;
+}
+
+
+.layla li{
+  transition:all .35s;
+  background: #3085a3;
+}
+.layla li a{
+  transition:all .35s;
+  width: 60%;
+  height: 60%;
+}
+.layla li img{
+  transition:all .35s;
+  max-height: none;
+  height: -webkit-calc(100% + 50px);
+  height: calc(100% + 50px);
+  opacity: 0.7;
+  transform:translateY(-50px);
+}
+.layla li .title{
+  color: #FFF;
+  top: 72px;
+  transition:all .35s;
+  text-align: center;
+  font-weight: 800;
+}
+.layla li .desc{
+  color: #FFF;
+  top: 160px;
+  transition:all .35s;
+  text-align: center;
+  font-weight: 800;
+  opacity: 0;
+}

@@ -1,0 +1,61 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-29 00:13:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-29 09:16:26
+*/
+.lily li:hover img{
+  opacity:1;
+  transform:translateX(0);
+}
+.lily li:hover .title{
+  transform:translateY(-50px);
+}
+.lily li:hover .desc{
+  transform:translateY(-40px);
+  opacity: 1;
+}
+
+
+.sadie li:hover a{
+  background-position: 0 0 ;
+}
+.sadie li:hover .title{
+  transform:translateY(-40px);
+  color: #FFF;
+}
+.sadie li:hover .desc{
+  transform:translateY(-20px);
+  opacity: 1;
+}
+
+.honey li:hover img{
+  opacity: 0.7;
+}
+.honey li:hover a{
+  background-position: 0 0 ;
+}
+.honey li:hover .title{
+  transform:translateY(30px);
+}
+.honey li:hover .title span{
+  opacity: 1;
+}
+
+
+.layla li:hover img{
+  transform:translateY(0);
+}
+.layla li:hover a{
+  width: 80%;
+  height: 80%;
+  box-sizing: border-box;
+  outline: 1px solid #FFF;
+  outline-offset:-20px;
+}
+.layla li:hover .title{
+  transform:translateY(20px);
+}
+.layla li:hover .desc{
+  opacity: 1;
+}
